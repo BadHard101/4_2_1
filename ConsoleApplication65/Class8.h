@@ -10,7 +10,7 @@ class Class8 : public Class6, public Class7
 {
 public:
 	Class8(string id);
-	virtual void getTree(int steps = 0);
+	void getTree(int steps = 0);
 private:
 	string name;
 	bool isPrinted = false;

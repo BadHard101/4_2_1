@@ -3,13 +3,14 @@
 #include <string>
 #include "Class1.h"
 
+
 using namespace std;
 
 class Class2 : public Class1
 {
 public:
 	Class2(string id);
-	virtual void getTree(int = 0);
+	void getTree(int = 0);
 private:
 	string name;
 	bool isPrinted = false;

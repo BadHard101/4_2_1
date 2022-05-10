@@ -17,9 +17,9 @@ int main()
 {
 	string id;
 	cin >> id;
-	Class2* c = dynamic_cast<Class2*>(new Class8(id));
+	Class8* link = new Class8(id);
 	for (int i = 3; i >= 0; i--)
-		dynamic_cast<Class8*>(c)->Class8::getTree(i);
+		link->Class8::getTree(i);
 	system("pause");
 	return 0;
 }
