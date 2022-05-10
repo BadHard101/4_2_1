@@ -9,7 +9,7 @@ class Class1
 public:
 	Class1(string id);
 	Class1() { cout << "Class1 EMPTY constructor\n"; }
-	virtual void getTree(int = 0);
+	virtual void getTree(int steps = 0);
 private:
 	string name = "untitled";
 	bool isPrinted = false;

@@ -10,7 +10,7 @@ class Class2 : public Class1
 {
 public:
 	Class2(string id);
-	void getTree(int = 0);
+	void getTree(int steps = 0);
 private:
 	string name;
 	bool isPrinted = false;
